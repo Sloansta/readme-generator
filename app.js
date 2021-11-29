@@ -64,7 +64,7 @@
          },
          {
              type: "input",
-             name: "contributeGuide",
+             name: "contribute",
              message: "Please explain the contribution guidelines for this project (Required)",
              validate: contrib => {
                  if(contrib)
@@ -78,7 +78,7 @@
 
          {
              type: "input",
-             name: "testCommand",
+             name: "test",
              message: "What is this projects test command? (Required)",
              validate: test => {
                 if(test)
@@ -92,16 +92,59 @@
 
          {
              type: "input",
-             name: "githubUsername",
+             name: "github",
              message: "Please enter your Github username"
          }, 
 
          {
              type: "input",
-             name: "emailAddr",
+             name: "email",
              message: "Lastly, please provide your email address"
          }
      ]).then(data => {
-         // add file writting 
-        console.log(data);
+         const readmeData = `
+            # ${data.title}
+
+
+
+            ## Description
+            ${data.description}
+
+            ## License
+            [![Generic badge](https://img.shields.io/static/v1.svg?label=license&message=${data.license}&color=red](https://shields.io/)
+
+            ## Tabe of Contents
+            - [License](#license)
+            - [Description](#description)
+            - [Install](#install)
+            - [Usage](#usage)
+            - [Test](#test)
+            - [Contribute](#contribute)
+            - [Contact](#contact)
+
+            ## Install 
+            ${data.install}
+
+            ## Usage
+            ${data.usage}
+
+            ## Test
+            ${data.test}
+
+            ## Contribute
+            ${data.contribute}
+
+            ## Contact
+            https://www.github.com/${data.github}
+            ${data.email}       
+         `;
+        console.log(readmeData);
+
+        fs.writeFile('README.md', readmeData, err => {
+            if(err)
+                throw err;
+            else 
+                console.log('File has been made');
+            
+        });
      });

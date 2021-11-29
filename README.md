@@ -2,10 +2,10 @@
 # ReadmeGen
 
 ## Description
-A simple command line application that you can run in your terminal to generate README files
+A simple commandline applicatiopn that generates README files
 
 ## License
-[![Generic badge](https://img.shields.io/static/v1.svg?label=license&message=GPL-3.0&color=red](https://shields.io/)
+[![Generic badge]](https://img.shields.io/static/v1.svg?label=<license></license>&message=<GPL-3.0>&color=<red></red>](https://shields.io/)
 
 ## Tabe of Contents
 - [License](#license)
@@ -20,7 +20,7 @@ A simple command line application that you can run in your terminal to generate 
 Clone the repo or download the code
 
 ## Usage
-Use it to create professional README files
+Usage is simple generation of readme files
 
 ## Test
 node app

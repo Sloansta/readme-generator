@@ -1,36 +1,34 @@
 
-            # Readme-generator
+# ReadmeGen
 
+## Description
+A simple command line application that you can run in your terminal to generate README files
 
+## License
+[![Generic badge](https://img.shields.io/static/v1.svg?label=license&message=GPL-3.0&color=red](https://shields.io/)
 
-            ## Description
-            A simple command line application that allows you to generate README files.
+## Tabe of Contents
+- [License](#license)
+- [Description](#description)
+- [Install](#install)
+- [Usage](#usage)
+- [Test](#test)
+- [Contribute](#contribute)
+- [Contact](#contact)
 
-            ## License
-            [![Generic badge](https://img.shields.io/static/v1.svg?label=license&message=GPL-3.0&color=red](https://shields.io/)
+## Install 
+Clone the repo or download the code
 
-            ## Tabe of Contents
-            - [License](#license)
-            - [Description](#description)
-            - [Install](#install)
-            - [Usage](#usage)
-            - [Test](#test)
-            - [Contribute](#contribute)
-            - [Contact](#contact)
+## Usage
+Use it to create professional README files
 
-            ## Install 
-            Clone it or download the code
+## Test
+node app
 
-            ## Usage
-            Gets rid of an otherwise boring task: formating README files
+## Contribute
+Anyone can contribute
 
-            ## Test
-            node app
-
-            ## Contribute
-            Contribute if you would like! 
-
-            ## Contact
-            https://www.github.com/Sloansta
-            Sloan.boyce@gmail.com       
+## Contact
+https://www.github.com/Sloansta
+sloanboyce@gmail.com       
          

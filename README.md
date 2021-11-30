@@ -5,7 +5,7 @@
 A simple commandline applicatiopn that generates README files
 
 ## License
-[![Generic badge]](https://img.shields.io/static/v1.svg?label=<license></license>&message=<GPL-3.0>&color=<red></red>](https://shields.io/)
+![Alt text](https://img.shields.io/static/v1.svg?label=License&message=${data.license}&color=green "https://shields.io/")
 
 ## Tabe of Contents
 - [License](#license)

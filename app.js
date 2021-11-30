@@ -105,7 +105,7 @@ return inq
 ${data.description}
 
 ## License
-[![Generic badge]](https://img.shields.io/static/v1.svg?label=<license></license>&message=<${data.license}>&color=<red></red>](https://shields.io/)
+![Alt text](https://img.shields.io/static/v1.svg?label=License&message=${data.license}&color=green "https://shields.io/")
 
 ## Tabe of Contents
 - [License](#license)

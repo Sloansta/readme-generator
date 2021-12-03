@@ -26,9 +26,9 @@ Use to create simple README files
 node app
 
 ## Contribute
-Anyone is welcomed to contribute
+Anyone is welcome to contribute
 
 ## Contact
 https://www.github.com/Sloansta
-sloanboyce@gmail.com       
+sloan.boyce@gmail.com       
          
